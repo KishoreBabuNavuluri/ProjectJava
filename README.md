@@ -11,5 +11,3 @@ Day 09-05-2021:
 3. It makes things simpler like HTML document traversal and manipulation, event handling, animation and AJAX.
 
  
-
-Done some hands on according to the description of pdf file sent by sir.
