@@ -1,14 +1,8 @@
-version: 0.2
-
 phases:
+  install:
+    runtime-versions:
+      java: openjdk8
+
   build:
     commands:
-      - echo Entered the build phase...
-      - mvn clean package
-  post_build:
-    commands:
-      - echo Build completed successfully
-artifacts:
-  files:
-    - target/ProjectJava.jar
-  discard-paths: yes
+      - mvn test
